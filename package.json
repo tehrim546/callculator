@@ -1,0 +1,20 @@
+{
+  "name": "calculator",
+  "type":"module",
+  "version": "1.0.0",
+  "description": "simple calculator for node projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/app.js"
+  },
+  "keywords": [],
+  "author": "tehrim",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/inquirer": "^9.0.7",
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.15",
+    "ts-node": "^10.9.2"
+  }
+}
